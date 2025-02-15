@@ -1,0 +1,20 @@
+# 核心依赖
+torch>=2.1.0  # 自动选择适合当前系统的版本
+transformers==4.40.0
+datasets==2.19.0
+accelerate==0.29.2
+peft==0.10.0
+
+# 数据处理
+numpy==1.26.4
+pandas==2.2.1
+tqdm==4.66.2
+
+# 工具类
+colorama==0.4.6  # 终端颜色输出
+safetensors==0.4.2  # 安全模型加载
+huggingface-hub==0.22.2  # 模型下载
+
+# 可选GPU加速
+# bitsandbytes==0.43.0  # 4-bit量化（需要CUDA）
+# tensorboard==2.16.2    # 训练可视化 
