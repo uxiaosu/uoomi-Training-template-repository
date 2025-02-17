@@ -12,7 +12,6 @@ tqdm==4.66.2
 
 # 工具类
 colorama==0.4.6  # 终端颜色输出
-safetensors==0.4.2  # 安全模型加载
 huggingface-hub==0.22.2  # 模型下载
 
 # 可选GPU加速
